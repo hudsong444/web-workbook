@@ -1,0 +1,24 @@
+main {width: 600px; margin: auto; font-family: Arial, Helvetica, sans-serif;
+}
+
+article {background-color: gray; 
+        padding: 10px;
+        margin: 2px;
+}
+
+p.p1 {color: rgb(9, 9, 168);
+}
+
+h2:hover {
+    color: green;
+  }
+
+article.a1 {background-color: darkgoldenrod;
+}
+
+small {font-size: x-small;
+}
+
+p::first-letter { 
+    font-size: 200%;
+}
