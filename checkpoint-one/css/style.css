@@ -1,1 +1,47 @@
+nav {margin: 0;
+    padding: 10px;
+    border: 1px solid black;
+}
 
+.top {
+    margin: 0;
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+}
+
+section {
+    margin: 0;
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    background-color: cornflowerblue;
+    float: left;
+}
+
+.art1 {
+    margin: 50px;
+    border: 1px solid black;
+    padding: 50px;
+    background-color: bisque;
+    float: left;
+}
+
+.art2 {
+    margin: 50px;
+    border: 1px solid black;
+    padding: 50px;
+    background-color: bisque;
+    float: left;
+}
+
+
+
+footer {
+    font-size: xx-small;
+    border: 1px solid black;
+    padding: 1px;
+    background-color: bisque;
+    clear: left;
+}
