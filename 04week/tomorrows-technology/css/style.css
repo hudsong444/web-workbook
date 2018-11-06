@@ -1,0 +1,81 @@
+.body-style {
+    display: flex;
+    margin-top: 25px;
+    justify-content: flex-start;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#pic {
+    width: 100%;
+    height: auto;
+}
+
+.headline {
+ justify-content: flex-start;
+ font-size: 25px;
+ font-family: 'Fira Sans', sans-serif;
+}
+
+.phone-style {
+    font-size: x-small;
+    justify-content: flex;
+    flex-direction: row;
+
+}
+
+.sidebar {
+    justify-content: flex-start;
+    margin: 15px;
+}
+
+.sidebar-header {
+    font-size: 25px;
+    font-style: bold;
+
+}
+
+.button {
+    background-color: rgb(77,77,77);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.footer-phone {
+   justify-content: space-around; 
+  
+   align-items: flex-start;
+   flex-direction: column;
+   padding: 25; height: auto; 
+   background-color: gray; 
+   color: white;
+}
+
+
+/* Small and up (Landscape Phones) */
+@media (max-width: 576px) {
+
+}
+
+
+/* Tablets */
+@media (max-width: 768px) {
+    .sidebar {display: none;}
+}
+
+/* Large and up (Desktops) */
+@media (max-width: 992px) {
+    .footer-phone {display: none;}
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+    .footer-phone {display: none;}
+
+}
