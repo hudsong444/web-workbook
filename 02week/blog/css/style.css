@@ -19,6 +19,15 @@ article.a1 {background-color: darkgoldenrod;
 small {font-size: x-small;
 }
 
-p::first-letter { 
-    font-size: 200%;
+p::first-letter, = {font-size: 200%;
+}
+
+article h2 { 
+   color:  goldenrod;
+}
+
+footer.foot {color: red; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+footer.foot {color: blue; font-family: Arial, Helvetica, sans-serif !important;
 }
