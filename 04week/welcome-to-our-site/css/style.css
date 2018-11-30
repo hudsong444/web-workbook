@@ -58,6 +58,7 @@
 /* Small and up (Landscape Phones) */
 @media (max-width: 576px) {
     #container {background-color: rgb(51,168,221); flex-direction: wrap;}
+    
     #container-bottom {flex-wrap: wrap; flex: 25%; padding: 25; height: 900px; background-color: lightgray; color: black;
 }
 
