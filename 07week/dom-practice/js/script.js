@@ -1,5 +1,7 @@
 'use strict';
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  // You code here
+  function myFunction() {
+    let x = document.getElementById("heading2");
+    x.style.color = "red";
 });

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="script.js"></script>
+    <title>Calculator-ALTERED</title>
+</head>
+<body>
+<h1>Color Wheel Lesson<h1>
+<br>
+<div id="calc">
+  <table class="table">
+  <div> Primary Color Quiz</div>
+    <tr>
+      <td class="red" onclick="addNumber('red')">R</td>
+      <td class="button" onclick="addition()">+</td>
+      <td class="blue" onclick="addNumber('blue')">B</td>
+      <td class="button" onclick="equals()">=</td>
+      <td class="violet" onclick="addNumber('violet')">V</td>
+    </tr>
+    </table>
+    <table class="table">
+    <tr>
+      <td class="blue" onclick="addNumber('blue')">B</td>
+      <td class="button" onclick="addition()">+</td>
+      <td class="yellow" onclick="addNumber('yellow')">Y</td>
+      <td class="button" onclick="addition()">=</td>
+      <td class="green" onclick="addNumber('green')">G</td>
+    </tr>
+    </table>
+    <table class="table">
+    <tr>
+      <td class="yellow" onclick="addNumber('yellow')">Y</td>
+      <td class="button" onclick="addition()">+</td>
+      <td class="red" onclick="addNumber('red')">R</td>
+      <td class="button" onclick="addition()">=</td>
+      <td class="orange" onclick="addNumber('orange')">O</td>
+    </tr>
+  </table>
+  <input type="text" id="results">
+  <tr>
+      <td class="button" colspan="2" onclick="deleteLast()">Delete</td>
+      <td class="button" colspan="2" onclick="clearResults()">Clear</td>
+  </div> 
+   </table>
+<br>
+<!-- Secondary Color part of game below-->
+<div>Here I wan the next game to show up but be hidden?</div>
+<div id="calc">
+  <table class="table">
+  <div> Secondary color Quiz</div>
+    <tr>
+      <td class="yellow" onclick="addNumber('red')">Y</td>
+      <td class="button" onclick="addition()">+</td>
+      <td class="green" onclick="addNumber('green')">G</td>
+      <td class="button" onclick="equals()">=</td>
+      <td class="yellowgreen" onclick="addNumber('yellowgreen')">YG</td>
+    </tr>
+    </table>
+    <table class="table">
+    <tr>
+      <td class="red" onclick="addNumber('red')">R</td>
+      <td class="button" onclick="addition()">+</td>
+      <td class="orange" onclick="addNumber('orange')">Y</td>
+      <td class="button" onclick="addition()">=</td>
+      <td class="orangered" onclick="addNumber('orangered')">OR</td>
+    </tr>
+    </table>
+    <table class="table">
+    <tr>
+      <td class="blue" onclick="addNumber('blue')">B</td>
+      <td class="button" onclick="addition()">+</td>
+      <td class="violet" onclick="addNumber('violet')">V</td>
+      <td class="button" onclick="addition()">=</td>
+      <td class="blueviolet" onclick="addNumber('blueviolet')">BV</td>
+    </tr>
+  </table>
+  <input type="text" id="results">
+  <td class="button" colspan="2" onclick="deleteLast()">Delete</td>
+      <td class="button" colspan="2" onclick="clearResults()">Clear</td>
+</div> 
+</table>
+</body>
+</html>
