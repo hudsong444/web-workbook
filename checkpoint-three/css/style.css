@@ -1,1 +1,110 @@
+/*html body formatting*/
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 50px;
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
 
+table {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(191, 219, 248);
+}
+
+
+/*html element formatting*/
+.math-button {
+    width: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    color: black;
+    background-color: lightgrey;
+    text-align: center;
+    cursor: pointer; 
+}
+
+.button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+#button-reveal {
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    color: black;
+    background-color:white;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /*Color Pallet Below*/
+   /*classes below*/
+    .red {
+      background-color: red;
+      color: white;
+  }
+  
+  
+  .blue {
+    background-color: blue;
+    color: white;
+  }
+  
+  
+  .yellow{
+    background-color: yellow;
+    color: black;
+  }
+  
+   /*id(s) below*/
+  #orange{
+    background-color: orange;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #green{
+    background-color: green;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #violet {
+    background-color: violet;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+
+   /*didn't build out this far on color wheel - tertiary colors, still need 3 more colors
+  .yellowgreen{
+    background-color: yellowgreen;
+  }
+  
+  .orangered {
+    background-color: orangered;
+  }
+  
+  .blueviolet {
+    background-color: blueviolet;
+  }
+
+  */
